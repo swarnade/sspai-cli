@@ -1,0 +1,51 @@
+{
+  "name": "sspai-cli",
+  "version": "1.0.0",
+  "description": "A fast and colorful terminal AI interface built for developers, by developers.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "sspai": "./bin/index.js",
+    "sspai-cli": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swarnade/sspai-cli"
+  },
+  "author": "Swarnadeep Saha Poddar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swarnade/sspai-cli/issues"
+  },
+  "homepage": "https://github.com/swarnade/sspai-cli",
+  "keywords": [
+  "cli",
+  "ai-cli",
+  "ssp-ai",
+  "chatbot",
+  "openai",
+  "gemini",
+  "google-genai",
+  "terminal",
+  "chatgpt",
+  "developer-tools",
+  "sspai-cli",
+  "command-line",
+  "interactive",
+  "prompt",
+  "chalk",
+  "figlet",
+  "boxen",
+  "gradient-string"
+],
+  "dependencies": {
+    "@google/genai": "^1.11.0",
+    "axios": "^1.11.0",
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "dotenv": "^17.2.1",
+    "figlet": "^1.8.2",
+    "gradient-string": "^3.0.0",
+    "readline": "^1.3.0"
+  }
+}
