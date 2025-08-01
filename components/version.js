@@ -3,8 +3,8 @@ import chalk from "chalk";
 import boxen from "boxen";
 
 const currentVersion = {
-    Version: "1.0.0",
-    Date: "31-07-2025",
+    Version: "1.1.1",
+    Date: "01-08-2025",
     Reference: "Developed The Initial Version"
 };
 

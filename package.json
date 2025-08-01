@@ -1,12 +1,12 @@
 {
   "name": "sspai-cli",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "A fast and colorful terminal AI interface built for developers, by developers.",
   "type": "module",
   "main": "index.js",
   "bin": {
     "sspai": "./bin/index.js",
-    "sspai-cli": "./bin/cli.js"
+    "sspai-cli": "./bin/index.js"
   },
   "repository": {
     "type": "git",
