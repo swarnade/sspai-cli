@@ -10,7 +10,7 @@ import Model from "../components/model.js"
 import Chat from "../components/chat.js";
 import developer from "../components/developer.js"
 
-var currentModel = process.env.SSPAI_DEFAULT_MODEL || "gemini-2.5-flash";
+var currentModel = process.env.SSPAI_DEFAULT_MODEL || "o3-mini";
 const username = os.userInfo().username;
 
 const rl = readline.createInterface({
